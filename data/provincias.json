@@ -1,0 +1,118 @@
+{
+  "18": {
+    "provincia": "TUNGURAHUA",
+    "cantones": {
+      "1801": {
+        "canton": "AMBATO",
+        "parroquias": {
+          "180101": "ATOCHA – FICOA",
+          "180102": "CELIANO MONGE",
+          "180103": "HUACHI CHICO",
+          "180104": "HUACHI LORETO",
+          "180105": "LA MERCED",
+          "180106": "LA PENÍNSULA",
+          "180107": "MATRIZ",
+          "180108": "PISHILATA",
+          "180109": "SAN FRANCISCO",
+          "180150": "AMBATO",
+          "180151": "AMBATILLO",
+          "180152": "ATAHUALPA (CHISALATA)",
+          "180153": "AUGUSTO N. MARTÍNEZ (MUNDUGLEO)",
+          "180154": "CONSTANTINO FERNÁNDEZ (CAB. EN CULLITAHUA)",
+          "180155": "HUACHI GRANDE",
+          "180156": "IZAMBA",
+          "180157": "JUAN BENIGNO VELA",
+          "180158": "MONTALVO",
+          "180159": "PASA",
+          "180160": "PICAIGUA",
+          "180161": "PILAGÜÍN (PILAHÜÍN)",
+          "180162": "QUISAPINCHA (QUIZAPINCHA)",
+          "180163": "SAN BARTOLOMÉ DE PINLLOG",
+          "180164": "SAN FERNANDO (PASA SAN FERNANDO)",
+          "180165": "SANTA ROSA",
+          "180166": "TOTORAS",
+          "180167": "CUNCHIBAMBA",
+          "180168": "UNAMUNCHO"
+        }
+      },
+      "1802": {
+        "canton": "BAÑOS DE AGUA SANTA",
+        "parroquias": {
+          "180250": "BAÑOS DE AGUA SANTA",
+          "180251": "LLIGUA",
+          "180252": "RÍO NEGRO",
+          "180253": "RÍO VERDE",
+          "180254": "ULBA"
+        }
+      },
+      "1803": {
+        "canton": "CEVALLOS",
+        "parroquias": {
+          "180350": "CEVALLOS"
+        }
+      },
+      "1804": {
+        "canton": "MOCHA",
+        "parroquias": {
+          "180450": "MOCHA",
+          "180451": "PINGUILÍ"
+        }
+      },
+      "1805": {
+        "canton": "PATATE",
+        "parroquias": {
+          "180550": "PATATE",
+          "180551": "EL TRIUNFO",
+          "180552": "LOS ANDES (CAB. EN POATUG)",
+          "180553": "SUCRE (CAB. EN SUCRE-PATATE URCU)"
+        }
+      },
+      "1806": {
+        "canton": "QUERO",
+        "parroquias": {
+          "180650": "QUERO",
+          "180651": "RUMIPAMBA",
+          "180652": "YANAYACU - MOCHAPATA (CAB. EN YANAYACU)"
+        }
+      },
+      "1807": {
+        "canton": "SAN PEDRO DE PELILEO",
+        "parroquias": {
+          "180701": "PELILEO",
+          "180702": "PELILEO GRANDE",
+          "180750": "PELILEO",
+          "180751": "BENÍTEZ (PACHANLICA)",
+          "180752": "BOLÍVAR",
+          "180753": "COTALÓ",
+          "180754": "CHIQUICHA (CAB. EN CHIQUICHA GRANDE)",
+          "180755": "EL ROSARIO (RUMICHACA)",
+          "180756": "GARCÍA MORENO (CHUMAQUI)",
+          "180757": "GUAMBALÓ (HUAMBALÓ)",
+          "180758": "SALASACA"
+        }
+      },
+      "1808": {
+        "canton": "SANTIAGO DE PÍLLARO",
+        "parroquias": {
+          "180801": "CIUDAD NUEVA",
+          "180802": "PÍLLARO",
+          "180850": "PÍLLARO",
+          "180851": "BAQUERIZO MORENO",
+          "180852": "EMILIO MARÍA TERÁN (RUMIPAMBA)",
+          "180853": "MARCOS ESPINEL (CHACATA)",
+          "180854": "PRESIDENTE URBINA (CHAGRAPAMBA -PATZUCUL)",
+          "180855": "SAN ANDRÉS",
+          "180856": "SAN JOSÉ DE POALÓ",
+          "180857": "SAN MIGUELITO"
+        }
+      },
+      "1809": {
+        "canton": "TISALEO",
+        "parroquias": {
+          "180950": "TISALEO",
+          "180951": "QUINCHICOTO"
+        }
+      }
+    }
+  }
+}
