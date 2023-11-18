@@ -19,6 +19,7 @@ import { CreateAnswerDto, CreateManyAnswersDto, UpdateAnswerDto } from './dtos';
 import { ApiTags } from '@nestjs/swagger';
 import { User as UserEntity } from '../users/classes';
 import { EncuestasService } from '../encuestas/encuestas.service';
+import { json } from 'stream/consumers';
 
 @ApiTags('Answers')
 @Controller('answers')
@@ -105,9 +106,23 @@ export class AnswersController {
         return res.status(400).json({ message: 'No hay datos' });
       }
       const answersParsed: any[] = JSON.parse(answers['data']);
+
       const newAnswers = answersParsed.map((answer) => {
+        const nuevo = {};
+        console.log(Object.keys(answer));
+        delete answer.id;
+        Object.keys(answer).forEach((key) => {
+          let value = answer[key];
+          console.log(value);
+
+          if (value.at(0) == '{') {
+            console.log('CUMPLE', value);
+            value = JSON.parse(value);
+          }
+          nuevo[key] = value;
+        });
         return {
-          ...answer,
+          ...nuevo,
           user: answers['userid'],
         };
       });
