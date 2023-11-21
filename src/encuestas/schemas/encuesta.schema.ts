@@ -3,6 +3,10 @@ import { userModelName } from '../../users/schemas/user.schema';
 
 export const encuestaSchema = new Schema(
   {
+    genero: { type: String, uppercase: true },
+    parroquia: { type: String, uppercase: true },
+    sector: { type: String, uppercase: true },
+    edad: { type: String, uppercase: true },
     respuesta1: { type: String, uppercase: true },
     respuesta2: { type: String, uppercase: true },
     respuesta3: { type: String, uppercase: true },
