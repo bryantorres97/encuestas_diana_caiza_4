@@ -18,4 +18,10 @@ export class EncuestasService {
   async createEncuestas(encuestas: any) {
     return await this.encuestaModel.insertMany(encuestas);
   }
+  async transactionsByUser(userId: string) {
+    return await this.encuestaModel.countDocuments({
+      user: userId,
+      isActive: true,
+    });
+  }
 }

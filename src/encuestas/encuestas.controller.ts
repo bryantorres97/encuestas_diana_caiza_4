@@ -1,4 +1,4 @@
-import { Controller, Get, Logger, Res } from '@nestjs/common';
+import { Controller, Get, Logger, Param, Res } from '@nestjs/common';
 import { Response } from 'express';
 import { EncuestasService } from './encuestas.service';
 import { getError } from '../common/helpers/manageErrors.helper';
@@ -19,5 +19,10 @@ export class EncuestasController {
       const errorData = getError(error);
       res.status(errorData.statusCode).json(errorData);
     }
+  }
+  @Get(':userId')
+  async transactionsByUser(@Param('userId') userId: any, @Res() res: Response) {
+    const encuestas = await this.encuestasService.transactionsByUser(userId);
+    return res.json(encuestas);
   }
 }
