@@ -21,8 +21,11 @@ export class EncuestasController {
     }
   }
   @Get(':userId')
-  async transactionsByUser(@Param('userId') userId: any, @Res() res: Response) {
+  async transactionsByUser(
+    @Param('userId') userId: string,
+    @Res() res: Response,
+  ) {
     const encuestas = await this.encuestasService.transactionsByUser(userId);
-    return res.json(encuestas);
+    return res.json({ encuestas });
   }
 }
